@@ -1,0 +1,94 @@
+:root {
+  --text-color: #f0f4f5;
+  --background-color: rgb(153, 153, 222, 0.8);
+  --accent-color: pink;
+}
+
+body {
+  margin: 0;
+  background-attachment: scroll;
+  background: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.navbar {
+  position: sticky;
+  background-color: #e1cfd4;
+}
+
+.homepage {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../images/main-background.jpg') no-repeat center center;
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+  min-height: 480px;
+}
+
+.homepage .wedding-announcement {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 140%;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  letter-spacing: 2px;
+}
+
+.home-page .wedding-announcement .announcement-container {
+  max-width: 600px;
+  text-align: center;
+  z-index: 999;
+}
+
+.couple-name {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ww-section {
+  padding: 100px 0;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.event-title {
+  text-align: center;
+}
+
+ul {
+  padding-left: 0;
+  margin-left:auto;
+  margin-right:auto;
+  list-style: none;
+  text-align: center;
+  flex-direction: column;
+}
+
+.map-icon {
+  font-size: 12px;
+}
+
+.bottom_right {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0px 15px 15px 15px;
+  text-emphasis-color: black;
+}
+
+.bottom_left {
+  overflow: hidden;
+  position: fixed;
+  text-align: right;
+  bottom: 0;
+  left: 0;
+  margin: 0px 15px 15px 15px;
+}
