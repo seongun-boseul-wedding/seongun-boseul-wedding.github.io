@@ -3,7 +3,7 @@
 
 이 repository는 결혼식 초대를 위한 모바일청첩장입니다. 
 
-![메인사진](https://github.com/seongun-boseul-wedding/seongun-boseul-wedding.github.io/raw/master/docs/images/pic4.jpg)
+![메인사진](https://github.com/seongun-boseul-wedding/seongun-boseul-wedding.github.io/blob/master/docs/images/main-background.jpg)
 
 ## 예식정보
 
