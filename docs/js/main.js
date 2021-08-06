@@ -11,4 +11,4 @@ $('#go-to-top').click(function () {
     document.documentElement.scrollTop = 0;
 });
 
-new ClipboardJS('.btn');
+new ClipboardJS('.fa-copy');
