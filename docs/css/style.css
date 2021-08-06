@@ -54,6 +54,14 @@ a {
   padding: 100px 0;
 }
 
+.txt_inner {
+  margin: 0 auto;
+}
+
+.txt_outer {
+  display: flex;
+}
+
 .text-muted {
   color: #6c757d !important;
 }
@@ -67,7 +75,7 @@ ul {
   margin-left:auto;
   margin-right:auto;
   list-style: none;
-  text-align: center;
+  text-align: left;
   flex-direction: column;
 }
 

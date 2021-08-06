@@ -1,134 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      href="https://fonts.googleapis.com/css?family=DM+Serif+Text|Lexend+Deca&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Gamja+Flower|Gugi|Noto+Serif+KR|Stylish|Sunflower:300"
-      rel="stylesheet"
-    />
-    <script src="js/main.js" defer></script>
-    <meta charset="UTF-8" />
-    <meta property="og:image" content="images/main-background.jpg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      href="images/favicon/apple-touch-icon.png"
-      rel="apple-touch-icon"
-      sizes="180x180"
-    />
-    <link
-      href="images/favicon/favicon-32x32.png"
-      rel="icon"
-      sizes="32x32"
-      type="image/png"
-    />
-    <link
-      href="images/favicon/favicon-16x16.png"
-      rel="icon"
-      sizes="16x16"
-      type="image/png"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/calendar.css" />
 
-    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text|Lexend+Deca&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Gugi|Noto+Serif+KR|Stylish|Sunflower:300"
+    rel="stylesheet" />
+  <script src="js/main.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta property="og:image" content="images/main-background.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link href="images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+  <link href="images/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+  <link href="images/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/calendar.css" />
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <!-- nanogallery2 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"
-    ></script>
+  <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <!-- nanogallery2 -->
+  <link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet"
+    type="text/css" />
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
 
-    <title>Wedding</title>
-  </head>
-  <body>
-    <div class="homepage" id="top">
-      <div class="wedding-announcement">
-        <div class="announcement-container">
-          <p
-            class="title"
-            style="
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/5.15.4/css/font-awesome.min.css" rel="stylesheet" />
+
+  <title>Wedding</title>
+</head>
+
+<body>
+  <div class="homepage" id="top">
+    <div class="wedding-announcement">
+      <div class="announcement-container">
+        <p class="title" style="
               font-family: 'Noto Serif KR', serif;
               font-size: 1.5em;
               letter-spacing: -1px;
               padding-top: 100px;
-            "
-          >
-            최성운 ♥︎ 조보슬
-          </p>
-          <p
-            class="title"
-            style="
+            ">
+          최성운 ♥︎ 조보슬
+        </p>
+        <p class="title" style="
               font-family: 'Noto Serif KR', serif;
               font-size: 1em;
               letter-spacing: -1px;
-            "
-          >
-            <b style="font-size: 1em">2021. 08. 22. SUN 11:00</b>
-          </p>
-        </div>
+            ">
+          <b style="font-size: 1em">2021. 08. 22. SUN 11:00</b>
+        </p>
       </div>
     </div>
+  </div>
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand"></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-item nav-link" href="#top">Top</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link" href="#events">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link" href="#gallery">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link" href="#heart">Heart</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link" href="#location">Location</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-item nav-link" href="#share">Share</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-item nav-link" href="#top">Top</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link" href="#events">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link" href="#heart">Heart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link" href="#location">Location</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link" href="#share">Share</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <article>
-      <!-- <section class="ww-section" id="couple">
+  <article>
+    <!-- <section class="ww-section" id="couple">
         <div class="container">
           <h2
             class="h1 text-center pb-3 ww-title"
@@ -167,627 +125,559 @@
           </script>
         </div>
       </section> -->
-      <section class="ww-section" id="events">
-        <div class="container ww-wedding-event">
-          <h3
-            class="text-center pb-3 ww-title"
-            style="font-family: 'Noto Serif KR', serif"
-          >
-            초대합니다
-          </h3>
-          <div class="col text-center mb-5">
-            <h6 style="font-family: 'Noto Serif KR', serif">
-              서로의 마음과 서로의 믿음을 간직하며 저희 두 사람이 새 출발의 첫 걸음을 내딛게 되었습니다.<br/>
-              좋은 꿈, 바른 뜻으로 올바르게 살 수 있도록 축복과 격려를 해주시면<br/>
-              더 없는 기쁨으로 잘 간직하겠습니다.
-            </h6>
-          </div>
+    <section class="ww-section" id="events">
+      <div class="container ww-wedding-event">
+        <h3 class="text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif">
+          초대합니다
+        </h3>
+        <div class="col text-center mb-5">
+          <h6 style="font-family: 'Noto Serif KR', serif">
+            서로의 마음과 서로의 믿음을 간직하며 저희 두 사람이 새 출발의 첫 걸음을 내딛게 되었습니다.<br />
+            좋은 꿈, 바른 뜻으로 올바르게 살 수 있도록 축복과 격려를 해주시면<br />
+            더 없는 기쁨으로 잘 간직하겠습니다.
+          </h6>
+        </div>
 
-          <div class="jzdbox1 jzdbasf jzdcal">
-            <div class="jzdcalt">August 2021</div>
-            <span>Su</span>
-            <span>Mo</span>
-            <span>Tu</span>
-            <span>We</span>
-            <span>Th</span>
-            <span>Fr</span>
-            <span>Sa</span>
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>5</span>
-            <span>6</span>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-            <span>10</span>
-            <span>11</span>
-            <span>12</span>
-            <span>13</span>
-            <span>14</span>
-            <span>15</span>
-            <span>16</span>
-            <span>17</span>
-            <span>18</span>
-            <span>19</span>
-            <span>20</span>
-            <span>21</span>
-            <span class="circle" data-title="11시 결혼식">22</span>
-            <span>23</span>
-            <span>24</span>
-            <span>25</span>
-            <span>26</span>
-            <span>27</span>
-            <span>28</span>
-            <span>29</span>
-            <span>30</span>
-            <span>31</span>
-            <span class="jzdb"><!--BLANK--></span>
-            <span class="jzdb"><!--BLANK--></span>
-            <span class="jzdb"><!--BLANK--></span>
-            <span class="jzdb"><!--BLANK--></span>
-          </div>
+        <div class="jzdbox1 jzdbasf jzdcal">
+          <div class="jzdcalt">August 2021</div>
+          <span>Su</span>
+          <span>Mo</span>
+          <span>Tu</span>
+          <span>We</span>
+          <span>Th</span>
+          <span>Fr</span>
+          <span>Sa</span>
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+          <span>10</span>
+          <span>11</span>
+          <span>12</span>
+          <span>13</span>
+          <span>14</span>
+          <span>15</span>
+          <span>16</span>
+          <span>17</span>
+          <span>18</span>
+          <span>19</span>
+          <span>20</span>
+          <span>21</span>
+          <span class="circle" data-title="11시 결혼식">22</span>
+          <span>23</span>
+          <span>24</span>
+          <span>25</span>
+          <span>26</span>
+          <span>27</span>
+          <span>28</span>
+          <span>29</span>
+          <span>30</span>
+          <span>31</span>
+          <span class="jzdb">
+            <!--BLANK-->
+          </span>
+          <span class="jzdb">
+            <!--BLANK-->
+          </span>
+          <span class="jzdb">
+            <!--BLANK-->
+          </span>
+          <span class="jzdb">
+            <!--BLANK-->
+          </span>
+        </div>
 
-            <div
-                    class="text-center"
-                    style="font-family: Noto Serif KR; font-size: 20px; padding-top: 20px"
-            >
-                웨딩 본식
+        <div class="txt_outer">
+          <div class="txt_inner">
+            <div class="text-center" style="font-family: Noto Serif KR; font-size: 20px; padding-top: 20px">
+              웨딩 본식
             </div>
             <ul>
-                <li>
-                    <i class="text-muted fas fa-map-marker-alt"></i>
-                    <span class="pl-2 text-muted">컨벤션헤리츠 2층 아그니스홀</span>
-                </li>
-                <li class="pt-2">
-                    <i class="text-muted far fa-calendar-alt"></i>
-                    <span class="pl-2 text-muted">2021년 8월 22일, 11:00</span>
-                </li>
+              <li>
+                <i class="text-muted fas fa-map-marker-alt"></i>
+                <span class="pl-2 text-muted">컨벤션헤리츠 2층 아그니스홀</span>
+              </li>
+              <li class="pt-2">
+                <i class="text-muted far fa-calendar-alt"></i>
+                <span class="pl-2 text-muted">2021년 8월 22일, 11:00</span>
+              </li>
             </ul>
 
-            <div
-                    class="text-center"
-                    style="
+            <div class="text-center" style="
               font-family: Noto Serif KR;
               font-size: 20px;
               font-style: normal;
               text-decoration: none;
-            "
-            >
-                식사
-            </div>
-            <ul>
-                <li>
-                    <i class="text-muted fas fa-map-marker-alt"></i>
-                    <span class="pl-2 text-muted">컨벤션헤리츠 3층 라비오스홀</span>
-                </li>
-                <li class="pt-2">
-                    <i class="text-muted far fa-calendar-alt"></i>
-                    <span class="pl-2 text-muted"
-                    >2021년 8월 22일, 10:30 ~ 12:30</span
-                    >
-                </li>
-            </ul>
-        </div>
-      </section>
-      <section class="ww-section" id="gallery">
-        <h3
-          class="text-center pb-3 ww-title"
-          style="font-family: 'Noto Serif KR', serif"
-        >
-          갤러리
-        </h3>
-        <div id="nanogallery2">gallery_made_with_nanogallery2</div>
-        <script>
-          jQuery(document).ready(function () {
-            jQuery('#nanogallery2').nanogallery2({
-              // ### gallery settings ###
-              thumbnailHeight: 150,
-              thumbnailWidth: 'auto',
-              thumbnailDisplayTransition: 'slideUp2',
-              thumbnailDisplayTransitionDuration: 500,
-              thumbnailDisplayInterval: 30,
-              galleryDisplayTransition: 'rotateX',
-              galleryDisplayTransitionDuration: 500,
-              thumbnailHoverEffect2: 'scale120',
-
-              // ### gallery content ###
-              items: [
-                {
-                  src: '/images/w1.jpg',
-                  srct: '/images/w1.jpg',
-                },
-                {
-                  src: '/images/w2.jpg',
-                  srct: '/images/w2.jpg',
-                },
-                {
-                  src: '/images/w3.jpg',
-                  srct: '/images/w3.jpg',
-                },
-                {
-                  src: '/images/w4.jpg',
-                  srct: '/images/w4.jpg',
-                },
-                {
-                  src: '/images/w5.jpg',
-                  srct: '/images/w5.jpg',
-                },
-                {
-                  src: '/images/w6.jpg',
-                  srct: '/images/w6.jpg',
-                },
-                {
-                  src: '/images/w7.jpg',
-                  srct: '/images/w7.jpg',
-                },
-                {
-                  src: '/images/w8.jpg',
-                  srct: '/images/w8.jpg',
-                },
-                {
-                  src: '/images/w9.jpg',
-                  srct: '/images/w9.jpg',
-                },
-                {
-                  src: '/images/w10.jpg',
-                  srct: '/images/w10.jpg',
-                },
-                {
-                  src: '/images/w11.jpg',
-                  srct: '/images/w11.jpg',
-                },
-                {
-                  src: '/images/w12.jpg',
-                  srct: '/images/w12.jpg',
-                },
-                {
-                  src: '/images/w13.jpg',
-                  srct: '/images/w13.jpg',
-                },
-                {
-                  src: '/images/w14.jpg',
-                  srct: '/images/w14.jpg',
-                },
-                {
-                  src: '/images/w15.jpg',
-                  srct: '/images/w15.jpg',
-                },
-                {
-                  src: '/images/w16.jpg',
-                  srct: '/images/w16.jpg',
-                },
-                {
-                  src: '/images/w17.jpg',
-                  srct: '/images/w17.jpg',
-                },
-                {
-                  src: '/images/w18.jpg',
-                  srct: '/images/w18.jpg',
-                },
-                {
-                  src: '/images/w19.jpg',
-                  srct: '/images/w19.jpg',
-                },
-                {
-                  src: '/images/w20.jpg',
-                  srct: '/images/w20.jpg',
-                },
-                {
-                  src: '/images/w21.jpg',
-                  srct: '/images/w21.jpg',
-                },
-                {
-                  src: '/images/w22.jpg',
-                  srct: '/images/w22.jpg',
-                },
-                {
-                  src: '/images/w23.jpg',
-                  srct: '/images/w23.jpg',
-                }
-              ],
-            });
-          });
-        </script>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bl7vGD1bY-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </section>
-
-      <section class="ww-section" id="heart">
-        <h3
-          class="text-center pb-3 ww-title"
-          style="font-family: 'Noto Serif KR', serif"
-        >
-          마음 전하는 곳
-        </h3>
-        <div
-                    class="text-center"
-                    style="font-family: Noto Serif KR; font-size: 20px; padding-top: 20px"
-            >
-                신랑측
-            </div>
-            <ul>
-                <li>
-                    <span class="pl-2 text-muted">최덕권 기업 010-5244-5605</span>
-                </li>
-                <li>
-                  <span class="pl-2 text-muted">고양숙 신한 100-019-616514</span>
-                </li>
-            </ul>
-            <div
-                    class="text-center"
-                    style="font-family: Noto Serif KR; font-size: 20px; padding-top: 20px"
-            >
-                신부측
+            ">
+              식사
             </div>
             <ul>
               <li>
-                <span class="pl-2 text-muted">조한동 농협 174392-56-078723</span>
-            </li>
-            <li>
-              <span class="pl-2 text-muted">성기정 농협 438-02-170616</span>
-            </li>
+                <i class="text-muted fas fa-map-marker-alt"></i>
+                <span class="pl-2 text-muted">컨벤션헤리츠 3층 라비오스홀</span>
+              </li>
+              <li class="pt-2">
+                <i class="text-muted far fa-calendar-alt"></i>
+                <span class="pl-2 text-muted">2021년 8월 22일, 10:30 ~ 12:30</span>
+              </li>
             </ul>
-      </section>
-
-      <section class="ww-section" id="location">
-        <div
-          class="separator transparent"
-          style="margin-top: 35px; margin-bottom: 0px"
-        ></div>
-        <div class="container">
-          <div class="col text-center">
-            <h3
-              class="text-center pb-3 ww-title"
-              style="font-family: 'Noto Serif KR', serif"
-            >
-              오시는 길
-            </h3>
-            <div>
-              <h5 style="font-family: 'Noto Serif KR', serif">
-                컨벤션헤리츠 2층 아그니스홀
-              </h5>
-              <h6 style="font-family: 'Noto Serif KR', serif">
-                (서울특별시 강남구 논현로 662)
-              </h6>
-            </div>
           </div>
-
-          <div class="form-group">
-            <div class="col-md-12">
-              <div class="my-3 text-center">
-                <a
-                  href="https://m.map.naver.com/search2/site.naver?code=13191407"
-                >
-                  <img
-                    alt="naver-map"
-                    class="map-icon"
-                    width="50"
-                    height="50"
-                    id="naver-map"
-                    src="images/map/naver-map.png"
-                  />
-                </a>
-                <a
-                  href="https://m.map.kakao.com/actions/searchView?q=%EC%BB%A8%EB%B2%A4%EC%85%98%ED%97%A4%EB%A6%AC%EC%B8%A0&wxEnc=LVSOTP&wyEnc=QNLTTMN&lvl=4#!/25933693/map/place"
-                >
-                  <img
-                    alt="kakao-map"
-                    class="map-icon"
-                    width="50"
-                    height="50"
-                    id="kakao-map"
-                    src="images/map/kakao-map.png"
-                  />
-                </a>
-              </div>
-              <div class="my-3">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.7790782956!2d127.02928521592695!3d37.513128379807846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3e11c19121f%3A0xfbc7cedee8a59ef6!2z7Luo67Kk7IWY7Zek66as7Lig!5e0!3m2!1sen!2skr!4v1617189272625!5m2!1sen!2skr"
-                  width="100%"
-                  height="400"
-                  frameborder="0"
-                  style="border: 0"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="separator transparent"
-            style="margin-top: 35px; margin-bottom: 0px"
-          ></div>
-          <div
-            class="vc_row wpb_row section vc_row-fluid vc_inner"
-            style="text-align: left"
-          >
-            <div class="full_section_inner clearfix">
-              <div class="wpb_column vc_column_container vc_col-sm-4">
-                <div class="vc_column-inner">
-                  <div class="wpb_wrapper">
-                    <div
-                      class="custom_font_holder"
-                      style="
-                        font-family: Notokr regular regular;
-                        font-size: 15px;
-                        line-height: 20px;
-                        font-style: normal;
-                        font-weight: 100;
-                        text-decoration: none;
-                        text-align: left;
-                      "
-                    >
-                      Address.
-                    </div>
-                    <div
-                      class="custom_font_holder"
-                      style="
-                        font-family: Notokr regular regular;
-                        font-size: 13px;
-                        line-height: 20px;
-                        font-style: normal;
-                        font-weight: 100;
-                        color: #3a3a3a;
-                        text-decoration: none;
-                        text-align: left;
-                      "
-                    >
-                      도로명 : 서울특별시 강남구 논현로 662 헤리츠빌딩<br />
-                      지번 : 서울특별시 강남구 논현동 215번지 헤리츠빌딩
-                    </div>
-                    <div
-                      class="separator transparent"
-                      style="margin-top: 20px; margin-bottom: 0px"
-                    ></div>
-                    <div
-                      class="custom_font_holder"
-                      style="
-                        font-family: Notokr regular regular;
-                        font-size: 15px;
-                        line-height: 20px;
-                        font-style: normal;
-                        font-weight: 100;
-                        text-decoration: none;
-                        text-align: left;
-                      "
-                    >
-                      Subway.
-                    </div>
-                    <div
-                      class="custom_font_holder"
-                      style="
-                        font-family: Notokr regular regular;
-                        font-size: 13px;
-                        line-height: 20px;
-                        font-style: normal;
-                        font-weight: 100;
-                        color: #3a3a3a;
-                        text-decoration: none;
-                        text-align: left;
-                      "
-                    >
-                      지하철 7호선 학동역 3번출구 도보 60m<br />
-                      지하철 9호선 언주역 3번출구 도보 500m
-                    </div>
-                    <div
-                      class="separator transparent"
-                      style="margin-top: 20px; margin-bottom: 0px"
-                    ></div>
-                    <div
-                      class="custom_font_holder"
-                      style="
-                        font-family: Notokr regular regular;
-                        font-size: 15px;
-                        line-height: 20px;
-                        font-style: normal;
-                        font-weight: 100;
-                        text-decoration: none;
-                        text-align: left;
-                      "
-                    >
-                      Bus.
-                    </div>
-                    <div
-                      class="custom_font_holder"
-                      style="
-                        font-family: Notokr regular regular;
-                        font-size: 13px;
-                        line-height: 20px;
-                        font-style: normal;
-                        font-weight: 100;
-                        color: #3a3a3a;
-                        text-decoration: none;
-                        text-align: left;
-                      "
-                    >
-                      간선 147번, 240번, 241번, 401번, 463번<br />
-                      지선 3412번, 3414번, 4211번, 6411번
-                    </div>
-                    <div
-                      class="separator transparent"
-                      style="margin-top: 20px; margin-bottom: 0px"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="wpb_column vc_column_container vc_col-sm-8">
-                <div class="vc_column-inner">
-                  <div class="wpb_wrapper">
-                    <div
-                      class="custom_font_holder"
-                      style="
-                        font-family: Notokr regular regular;
-                        font-size: 15px;
-                        line-height: 20px;
-                        font-style: normal;
-                        font-weight: 100;
-                        text-decoration: none;
-                        text-align: left;
-                      "
-                    >
-                      Car.
-                    </div>
-                    <div
-                      class="custom_font_holder"
-                      style="
-                        font-family: Notokr regular regular;
-                        font-size: 13px;
-                        line-height: 20px;
-                        font-style: normal;
-                        font-weight: 100;
-                        color: #3a3a3a;
-                        text-decoration: none;
-                        text-align: left;
-                      "
-                    >
-                      동호대교 : 성수대교 남단에서 을지병원(구 안세병원)
-                      사거리로 직진 → 학동역 방면으로 직진 → 학동역 사거리 30m
-                    </div>
-                    <div
-                      class="separator transparent"
-                      style="margin-top: 10px; margin-bottom: 0px"
-                    ></div>
-                    <div
-                      class="custom_font_holder"
-                      style="
-                        font-family: Notokr regular regular;
-                        font-size: 13px;
-                        line-height: 20px;
-                        font-style: normal;
-                        font-weight: 100;
-                        color: #3a3a3a;
-                        text-decoration: none;
-                        text-align: left;
-                      "
-                    >
-                      한남대교 : 한남대교 남단에서 강남대로를 따라 논현역
-                      방면으로 직진 → 논현역 사거리에서 자회전 → 학동역 방면으로
-                      직진 → 학동역 사거리를 지나서 바로 첫번째 골목으로 우회전
-                      → 첫번째 작은 사거리에서 우회전 후 30m
-                    </div>
-                    <div
-                      class="separator transparent"
-                      style="margin-top: 10px; margin-bottom: 0px"
-                    ></div>
-                    <div
-                      class="custom_font_holder"
-                      style="
-                        font-family: Notokr regular regular;
-                        font-size: 13px;
-                        line-height: 20px;
-                        font-style: normal;
-                        font-weight: 100;
-                        color: #3a3a3a;
-                        text-decoration: none;
-                        text-align: left;
-                      "
-                    >
-                      성수대교 : 성수대교 남단에서 관세청 사거리 방면으로 직진 →
-                      관세청사거리에서 우회전 → 학동역 사거리에서 U턴후 수협은행
-                      건물 옆골목으로 우회전 → 첫번째 작은사거리에서 우회전 후
-                      30m
-                    </div>
-                    <div
-                      class="separator transparent"
-                      style="margin-top: 10px; margin-bottom: 0px"
-                    ></div>
-                    <div
-                      class="custom_font_holder"
-                      style="
-                        font-family: Notokr regular regular;
-                        font-size: 13px;
-                        line-height: 20px;
-                        font-style: normal;
-                        font-weight: 100;
-                        color: #3a3a3a;
-                        text-decoration: none;
-                        text-align: left;
-                      "
-                    >
-                      영동대교 : 영동대교 남단에서 코엑스 방면으로 좌회전 → 직진
-                      후 강남구청 방면으로 우회전 → 학동역 방면으로 직진 →
-                      관세청 사거리 지나서 학동역 방면으로 직진 → 학동역
-                      사거리에서 자회전 → 학동역 사거리 지나 30m
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="separator transparent"
-            style="margin-top: 35px; margin-bottom: 0px"
-          ></div>
         </div>
-      </section>
+      </div>
+    </section>
+    <section class="ww-section" id="gallery">
+      <h3 class="text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif">
+        갤러리
+      </h3>
+      <div id="nanogallery2">gallery_made_with_nanogallery2</div>
+      <script>
+        jQuery(document).ready(function () {
+          jQuery('#nanogallery2').nanogallery2({
+            // ### gallery settings ###
+            thumbnailHeight: 150,
+            thumbnailWidth: 'auto',
+            thumbnailDisplayTransition: 'slideUp2',
+            thumbnailDisplayTransitionDuration: 500,
+            thumbnailDisplayInterval: 30,
+            galleryDisplayTransition: 'rotateX',
+            galleryDisplayTransitionDuration: 500,
+            thumbnailHoverEffect2: 'scale120',
 
-      <section class="ww-section" id="share">
-        <h3 class="text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif">
-          공유하기
-        </h3>
-        <div class="my-3 text-center">
+            // ### gallery content ###
+            items: [
+              {
+                src: '/images/w1.jpg',
+                srct: '/images/w1.jpg',
+              },
+              {
+                src: '/images/w2.jpg',
+                srct: '/images/w2.jpg',
+              },
+              {
+                src: '/images/w3.jpg',
+                srct: '/images/w3.jpg',
+              },
+              {
+                src: '/images/w4.jpg',
+                srct: '/images/w4.jpg',
+              },
+              {
+                src: '/images/w5.jpg',
+                srct: '/images/w5.jpg',
+              },
+              {
+                src: '/images/w6.jpg',
+                srct: '/images/w6.jpg',
+              },
+              {
+                src: '/images/w7.jpg',
+                srct: '/images/w7.jpg',
+              },
+              {
+                src: '/images/w8.jpg',
+                srct: '/images/w8.jpg',
+              },
+              {
+                src: '/images/w9.jpg',
+                srct: '/images/w9.jpg',
+              },
+              {
+                src: '/images/w10.jpg',
+                srct: '/images/w10.jpg',
+              },
+              {
+                src: '/images/w11.jpg',
+                srct: '/images/w11.jpg',
+              },
+              {
+                src: '/images/w12.jpg',
+                srct: '/images/w12.jpg',
+              },
+              {
+                src: '/images/w13.jpg',
+                srct: '/images/w13.jpg',
+              },
+              {
+                src: '/images/w14.jpg',
+                srct: '/images/w14.jpg',
+              },
+              {
+                src: '/images/w15.jpg',
+                srct: '/images/w15.jpg',
+              },
+              {
+                src: '/images/w16.jpg',
+                srct: '/images/w16.jpg',
+              },
+              {
+                src: '/images/w17.jpg',
+                srct: '/images/w17.jpg',
+              },
+              {
+                src: '/images/w18.jpg',
+                srct: '/images/w18.jpg',
+              },
+              {
+                src: '/images/w19.jpg',
+                srct: '/images/w19.jpg',
+              },
+              {
+                src: '/images/w20.jpg',
+                srct: '/images/w20.jpg',
+              },
+              {
+                src: '/images/w21.jpg',
+                srct: '/images/w21.jpg',
+              },
+              {
+                src: '/images/w22.jpg',
+                srct: '/images/w22.jpg',
+              },
+              {
+                src: '/images/w23.jpg',
+                srct: '/images/w23.jpg',
+              }
+            ],
+          });
+        });
+      </script>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Bl7vGD1bY-g" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </section>
+
+    <section class="ww-section" id="heart">
+      <h3 class="text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif">
+        마음 전하는 곳
+      </h3>
+      <div class="container-fluid">
+        <div class="txt_outer">
+          <div class="txt_inner">
+            <!-- Javascript가 필요없이 data-toggle에 collapse href에 대상 id을 설정합니다. -->
+            <div class="text-center" data-toggle="collapse" href="#collapse1" aria-expanded="false"
+              style="font-family: Noto Serif KR; font-size: 20px; padding-top: 20px" aria-controls="collapseExample">신랑측
+              확인하기</div>
+            <!-- collapse 대상 태그는 class를 collapse로 설정합니다. -->
+            <div class="collapse" id="collapse1">
+              <ul>
+                <li>
+                  <span class="pl-2 text-muted">최덕권 기업 010-5244-5605</span>
+                  <button class="btn" data-clipboard-text="01052445605">
+                    <i class="far fa-copy"></i>
+                  </button>
+                </li>
+                <li>
+                  <span class="pl-2 text-muted">고양숙 신한 100-019-616514</span>
+                  <button class="btn" data-clipboard-text="100019616514">
+                    <i class="far fa-copy"></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="txt_outer">
+              <div class="txt_inner">
+              </div>
+            </div>
+            <!-- Javascript가 필요없이 data-toggle에 collapse href에 대상 id을 설정합니다. -->
+            <div class="text-center" data-toggle="collapse" href="#collapse2" aria-expanded="false"
+              style="font-family: Noto Serif KR; font-size: 20px; padding-top: 20px" aria-controls="collapseExample">신부측
+              확인하기</div>
+            <!-- collapse 대상 태그는 class를 collapse로 설정합니다. -->
+            <div class="collapse" id="collapse2">
+              <ul>
+                <li>
+                  <span class="pl-2 text-muted">
+                    조한동 농협 174392-56-078723
+                    
+                    <button class="btn" data-clipboard-text="17439256078723">
+                      <i class="far fa-copy"></i>
+                    </button>
+                  </span>
+                </li>
+                <li>
+                  <span class="pl-2 text-muted">성기정 농협 438-02-170616</span>
+                  <button class="btn" data-clipboard-text="43802170616">
+                    <i class="far fa-copy"></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="ww-section" id="location">
+      <div class="separator transparent" style="margin-top: 35px; margin-bottom: 0px"></div>
+      <div class="container">
+        <div class="col text-center">
+          <h3 class="text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif">
+            오시는 길
+          </h3>
+          <div>
+            <h5 style="font-family: 'Noto Serif KR', serif">
+              컨벤션헤리츠 2층 아그니스홀
+            </h5>
+            <h6 style="font-family: 'Noto Serif KR', serif">
+              (서울특별시 강남구 논현로 662)
+            </h6>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-md-12">
+            <div class="my-3 text-center">
+              <a href="https://m.map.naver.com/search2/site.naver?code=13191407">
+                <img alt="naver-map" class="map-icon" width="50" height="50" id="naver-map"
+                  src="images/map/naver-map.png" />
+              </a>
+              <a
+                href="https://m.map.kakao.com/actions/searchView?q=%EC%BB%A8%EB%B2%A4%EC%85%98%ED%97%A4%EB%A6%AC%EC%B8%A0&wxEnc=LVSOTP&wyEnc=QNLTTMN&lvl=4#!/25933693/map/place">
+                <img alt="kakao-map" class="map-icon" width="50" height="50" id="kakao-map"
+                  src="images/map/kakao-map.png" />
+              </a>
+            </div>
+            <div class="my-3">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.7790782956!2d127.02928521592695!3d37.513128379807846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3e11c19121f%3A0xfbc7cedee8a59ef6!2z7Luo67Kk7IWY7Zek66as7Lig!5e0!3m2!1sen!2skr!4v1617189272625!5m2!1sen!2skr"
+                width="100%" height="400" frameborder="0" style="border: 0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="separator transparent" style="margin-top: 35px; margin-bottom: 0px"></div>
+        <div class="vc_row wpb_row section vc_row-fluid vc_inner" style="text-align: left">
+          <div class="full_section_inner clearfix">
+            <div class="wpb_column vc_column_container vc_col-sm-4">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <div class="custom_font_holder" style="
+                        font-family: Notokr regular regular;
+                        font-size: 15px;
+                        line-height: 20px;
+                        font-style: normal;
+                        font-weight: 100;
+                        text-decoration: none;
+                        text-align: left;
+                      ">
+                    Address.
+                  </div>
+                  <div class="custom_font_holder" style="
+                        font-family: Notokr regular regular;
+                        font-size: 13px;
+                        line-height: 20px;
+                        font-style: normal;
+                        font-weight: 100;
+                        color: #3a3a3a;
+                        text-decoration: none;
+                        text-align: left;
+                      ">
+                    도로명 : 서울특별시 강남구 논현로 662 헤리츠빌딩<br />
+                    지번 : 서울특별시 강남구 논현동 215번지 헤리츠빌딩
+                  </div>
+                  <div class="separator transparent" style="margin-top: 20px; margin-bottom: 0px"></div>
+                  <div class="custom_font_holder" style="
+                        font-family: Notokr regular regular;
+                        font-size: 15px;
+                        line-height: 20px;
+                        font-style: normal;
+                        font-weight: 100;
+                        text-decoration: none;
+                        text-align: left;
+                      ">
+                    Subway.
+                  </div>
+                  <div class="custom_font_holder" style="
+                        font-family: Notokr regular regular;
+                        font-size: 13px;
+                        line-height: 20px;
+                        font-style: normal;
+                        font-weight: 100;
+                        color: #3a3a3a;
+                        text-decoration: none;
+                        text-align: left;
+                      ">
+                    지하철 7호선 학동역 3번출구 도보 60m<br />
+                    지하철 9호선 언주역 3번출구 도보 500m
+                  </div>
+                  <div class="separator transparent" style="margin-top: 20px; margin-bottom: 0px"></div>
+                  <div class="custom_font_holder" style="
+                        font-family: Notokr regular regular;
+                        font-size: 15px;
+                        line-height: 20px;
+                        font-style: normal;
+                        font-weight: 100;
+                        text-decoration: none;
+                        text-align: left;
+                      ">
+                    Bus.
+                  </div>
+                  <div class="custom_font_holder" style="
+                        font-family: Notokr regular regular;
+                        font-size: 13px;
+                        line-height: 20px;
+                        font-style: normal;
+                        font-weight: 100;
+                        color: #3a3a3a;
+                        text-decoration: none;
+                        text-align: left;
+                      ">
+                    간선 147번, 240번, 241번, 401번, 463번<br />
+                    지선 3412번, 3414번, 4211번, 6411번
+                  </div>
+                  <div class="separator transparent" style="margin-top: 20px; margin-bottom: 0px"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="wpb_column vc_column_container vc_col-sm-8">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <div class="custom_font_holder" style="
+                        font-family: Notokr regular regular;
+                        font-size: 15px;
+                        line-height: 20px;
+                        font-style: normal;
+                        font-weight: 100;
+                        text-decoration: none;
+                        text-align: left;
+                      ">
+                    Car.
+                  </div>
+                  <div class="custom_font_holder" style="
+                        font-family: Notokr regular regular;
+                        font-size: 13px;
+                        line-height: 20px;
+                        font-style: normal;
+                        font-weight: 100;
+                        color: #3a3a3a;
+                        text-decoration: none;
+                        text-align: left;
+                      ">
+                    동호대교 : 성수대교 남단에서 을지병원(구 안세병원)
+                    사거리로 직진 → 학동역 방면으로 직진 → 학동역 사거리 30m
+                  </div>
+                  <div class="separator transparent" style="margin-top: 10px; margin-bottom: 0px"></div>
+                  <div class="custom_font_holder" style="
+                        font-family: Notokr regular regular;
+                        font-size: 13px;
+                        line-height: 20px;
+                        font-style: normal;
+                        font-weight: 100;
+                        color: #3a3a3a;
+                        text-decoration: none;
+                        text-align: left;
+                      ">
+                    한남대교 : 한남대교 남단에서 강남대로를 따라 논현역
+                    방면으로 직진 → 논현역 사거리에서 자회전 → 학동역 방면으로
+                    직진 → 학동역 사거리를 지나서 바로 첫번째 골목으로 우회전
+                    → 첫번째 작은 사거리에서 우회전 후 30m
+                  </div>
+                  <div class="separator transparent" style="margin-top: 10px; margin-bottom: 0px"></div>
+                  <div class="custom_font_holder" style="
+                        font-family: Notokr regular regular;
+                        font-size: 13px;
+                        line-height: 20px;
+                        font-style: normal;
+                        font-weight: 100;
+                        color: #3a3a3a;
+                        text-decoration: none;
+                        text-align: left;
+                      ">
+                    성수대교 : 성수대교 남단에서 관세청 사거리 방면으로 직진 →
+                    관세청사거리에서 우회전 → 학동역 사거리에서 U턴후 수협은행
+                    건물 옆골목으로 우회전 → 첫번째 작은사거리에서 우회전 후
+                    30m
+                  </div>
+                  <div class="separator transparent" style="margin-top: 10px; margin-bottom: 0px"></div>
+                  <div class="custom_font_holder" style="
+                        font-family: Notokr regular regular;
+                        font-size: 13px;
+                        line-height: 20px;
+                        font-style: normal;
+                        font-weight: 100;
+                        color: #3a3a3a;
+                        text-decoration: none;
+                        text-align: left;
+                      ">
+                    영동대교 : 영동대교 남단에서 코엑스 방면으로 좌회전 → 직진
+                    후 강남구청 방면으로 우회전 → 학동역 방면으로 직진 →
+                    관세청 사거리 지나서 학동역 방면으로 직진 → 학동역
+                    사거리에서 자회전 → 학동역 사거리 지나 30m
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="separator transparent" style="margin-top: 35px; margin-bottom: 0px"></div>
+      </div>
+    </section>
+
+    <section class="ww-section" id="share">
+      <h3 class="text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif">
+        공유하기
+      </h3>
+      <div class="my-3 text-center">
         <a id="kakao-link-btn" href="javascript:;">
-          <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
-               width="50"
-               height="50"/>
+          <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" width="50"
+            height="50" />
         </a>
-        </div>
-        <script type='text/javascript'>
-          //<![CDATA[
-          Kakao.init('e1d38ecb447cd4097eacb26e321244e8');
+      </div>
+      <script type='text/javascript'>
+        //<![CDATA[
+        Kakao.init('e1d38ecb447cd4097eacb26e321244e8');
 
-          Kakao.Link.createDefaultButton({
-            container: '#kakao-link-btn',
-            objectType: 'feed',
-            content: {
-              title: '최성운 ♥︎ 조보슬',
-              description: '소중한 날, 초대합니다',
-              imageUrl: 'https://github.com/seongun-boseul-wedding/seongun-boseul-wedding.github.io/blob/master/docs/images/main-background.jpg?raw=true',
+        Kakao.Link.createDefaultButton({
+          container: '#kakao-link-btn',
+          objectType: 'feed',
+          content: {
+            title: '최성운 ♥︎ 조보슬',
+            description: '소중한 날, 초대합니다',
+            imageUrl: 'https://github.com/seongun-boseul-wedding/seongun-boseul-wedding.github.io/blob/master/docs/images/main-background.jpg?raw=true',
+            link: {
+              mobileWebUrl: 'https://seongun-boseul-wedding.github.io',
+              webUrl: 'https://seongun-boseul-wedding.github.io'
+            }
+          },
+          buttons: [
+            {
+              title: '청첩장 바로가기',
               link: {
                 mobileWebUrl: 'https://seongun-boseul-wedding.github.io',
                 webUrl: 'https://seongun-boseul-wedding.github.io'
               }
-            },
-            buttons: [
-              {
-                title: '청첩장 바로가기',
-                link: {
-                  mobileWebUrl: 'https://seongun-boseul-wedding.github.io',
-                  webUrl: 'https://seongun-boseul-wedding.github.io'
-                }
-              }
-            ]
-          });
+            }
+          ]
+        });
           //]]>
-        </script>
+      </script>
 
-      </section>
-    </article>
+    </section>
+  </article>
 
-    <div class="bottom_right">
-      <i class="fa fa-arrow-up fa-2x" id="go-to-top"></i>
+  <div class="bottom_right">
+    <i class="fa fa-arrow-up fa-2x" id="go-to-top"></i>
+  </div>
+
+  <div class="bottom_left">
+    <audio id="player" src="mus.mp3"></audio>
+    <div>
+      <i class="fa fa-music fa-2x" onclick="document.getElementById('player').play()"></i>
     </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
-    <div class="bottom_left">
-      <audio id="player" src="mus.mp3"></audio>
-      <div>
-        <i
-          class="fa fa-music fa-2x"
-          onclick="document.getElementById('player').play()"
-        ></i>
-      </div>
-    </div>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="js/clipboard.min.js"></script>
+
+</body>
 </html>
