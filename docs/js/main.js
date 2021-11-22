@@ -23,20 +23,20 @@ $('#go-to-top').click(function () {
 
 $('#mm').on('click', function () {
     copyToClipBoard(01052445605);
-    alert("복사완료")
+    alert("복사되었습니다")
  });
 
  $('#mf').on('click', function () {
     copyToClipBoard(100019616514);
-    alert("복사완료")
+    alert("복사되었습니다")
  });
 
  $('#fm').on('click', function () {
     copyToClipBoard(17439256078723);
-    alert("복사완료")
+    alert("복사되었습니다")
  });
 
 $('#ff').on('click', function () {
     copyToClipBoard(43802170616);
-    alert("복사완료")
+    alert("복사되었습니다")
  });
