@@ -31,6 +31,11 @@ $('#mm').on('click', function () {
     alert("복사되었습니다")
  });
 
+ $('#m').on('click', function () {
+    copyToClipBoard(110306105382);
+    alert("복사되었습니다")
+ });
+
  $('#fm').on('click', function () {
     copyToClipBoard(17439256078723);
     alert("복사되었습니다")
@@ -38,5 +43,10 @@ $('#mm').on('click', function () {
 
 $('#ff').on('click', function () {
     copyToClipBoard(43802170616);
+    alert("복사되었습니다")
+ });
+
+ $('#f').on('click', function () {
+    copyToClipBoard(110464028453);
     alert("복사되었습니다")
  });
