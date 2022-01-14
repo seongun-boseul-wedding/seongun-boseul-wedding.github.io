@@ -22,7 +22,7 @@ $('#go-to-top').click(function () {
 
 
 $('#mm').on('click', function () {
-    copyToClipBoard(01052445605);
+    copyToClipBoard(52932852102101);
     alert("복사되었습니다")
  });
 
